@@ -109,6 +109,10 @@ body {
   text-decoration: none;
 }
 
+.react-horizontal-scrolling-menu--inner-wrapper {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
