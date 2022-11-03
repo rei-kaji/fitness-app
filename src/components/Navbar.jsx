@@ -39,7 +39,7 @@ const Navbar = () => {
           Home
         </Link>
         <a
-          href="#exercised"
+          href="#exercises"
           style={{
             textDecoration: "none",
             color: "var(--sub-color)",

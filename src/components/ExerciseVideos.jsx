@@ -3,7 +3,7 @@ import React from "react";
 
 const ExerciseVideos = ({ exerciseVideo, name }) => {
   //   console.log(exerciseVideo);
-  if (!exerciseVideo.length) return "loading...";
+  //   if (!exerciseVideo.length) return "loading...";
   return (
     <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
       <Typography variant="h4" mb="33px" color="initial">
@@ -27,7 +27,11 @@ const ExerciseVideos = ({ exerciseVideo, name }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={item.video.thumbnails[0].url} alt={item.video.title} />
+            <img
+              src={item.video.thumbnails[0].url}
+              style={{ borderTopLeftRadius: "20px" }}
+              alt={item.video.title}
+            />
             <Box>
               <Typography
                 sx={{ fontSize: { lg: "28px", xs: "18px" } }}
